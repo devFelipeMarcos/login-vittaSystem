@@ -10,7 +10,7 @@ Um sistema simples e moderno de autenticação com Next.js, Google OAuth e Email
 - React Hook Form + Zod (validação de formulários)
 - Auth.js (NextAuth)
 - Drizzle ORM (migrations e banco de dados)
-- PostgreSQL, MySQL ou SQLite
+- PostgreSQL
 - Deploy na Vercel (recomendado)
 
 ## 🎯 Funcionalidades
@@ -86,14 +86,14 @@ Acesse no navegador:
 
 ## 💻 Deploy
 
-O projeto está pronto para deploy na [Vercel](https://vercel.com/).
+O projeto está pronto para deploy na [Vercel](https://login-next-three.vercel.app/).
 
 - **Configure as variáveis de ambiente na Vercel**
 - Clique em **"Deploy"**
 
 ## 🙋‍♂️ Autor
 
-Desenvolvido por [Felipe Marcos](https://github.com/seu-usuario) 🚀
+Desenvolvido por [Felipe Marcos](https://github.com/devFelipeMarcos) 🚀
 
 ## 📝 Licença
 

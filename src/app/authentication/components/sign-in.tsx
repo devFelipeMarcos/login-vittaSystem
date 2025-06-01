@@ -7,7 +7,6 @@ import { toast } from "sonner";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { authClient, signInWithGoogle } from "@/lib/auth-client";
-import bg from "@/public/bg.jpg";
 
 const formSchema = z.object({
   email: z.string().email("E-mail inválido"),
@@ -39,7 +38,7 @@ const Authentication = () => {
       {
         onSuccess: () => {
           toast.success("Login realizado com sucesso");
-          router.push("/dashboard");
+          router.push("/");
         },
         onError: () => {
           toast.error("E-mail ou senha inválidos");
